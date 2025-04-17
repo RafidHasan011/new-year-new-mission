@@ -1,0 +1,537 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: open Arial, Helvetica, sans-serif;
+}
+
+.year-banner {
+  height: 250px;
+  width: 700px;
+  opacity: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.year-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.overlay-text {
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  opacity: 100%;
+  font-weight: bolder;
+}
+
+.text1 {
+  font-size: 0.9rem;
+  font-weight: light;
+}
+
+.text2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 5px;
+  opacity: 100%;
+  color: #ffffff;
+}
+
+/* discount section */
+
+.discount-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.discount {
+  color: #ff0000;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.deal-text {
+  font-size: 0.9rem;
+  font-weight: light;
+  color: #ff0000;
+  margin-bottom: 5px;
+}
+
+.categories-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #070211;
+  margin-bottom: 10px;
+}
+
+.img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Welcome Section */
+
+.welcome-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.welcome-img {
+  height: 250px;
+  width: 700px;
+  opacity: 100%;
+}
+
+.group-70 {
+  height: 200px;
+  width: 150px;
+  position: absolute;
+  top: 45px;
+  align-items: center;
+  right: 130px;
+  background-size: cover;
+}
+
+.overlay-welcome {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  text-align: left;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  opacity: 100%;
+  font-weight: bolder;
+  z-index: 1;
+}
+
+.welcome-text {
+  font-size: 2rem;
+  font-weight: light;
+  color: #ffffff;
+}
+
+.about-welcome {
+  font-size: 0.6rem;
+
+  margin-top: 5px;
+  opacity: 100%;
+  color: #ffffff;
+}
+
+.overlay-welcome button {
+  background-color: black;
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* time and date section  */
+
+.time-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(to bottom, rgb(255, 188, 208), #ffffff);
+  height: 250px;
+  width: 700px;
+  /* border: 2px solid #4a90e2; */
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+  border-radius: 5px;
+
+  position: relative;
+  top: 120px;
+  left: 47.5%;
+  transform: translate(-50%, -50%);
+}
+
+.time-date p {
+  font-weight: bold;
+  color: #ff0000;
+  font-size: 1rem;
+  font-weight: light;
+}
+
+.time-date h3 {
+  color: #070211;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: light;
+}
+
+.time-date button {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.time-date button:hover {
+  background-color: #d40000;
+}
+
+.coming-offer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  height: 250px;
+  width: 700px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.coming-group {
+  width: 20px;
+  padding-right: 20px;
+}
+
+.upcoming-text {
+  color: #070211;
+}
+
+.Ellipse1 {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 8px solid red;
+  padding: 10px;
+}
+
+.year {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.year-text {
+  color: #070211;
+}
+
+.coming-offer > div {
+  flex: 1;
+}
+
+.newyear-img img {
+  width: 60px;
+}
+
+/* holiday section  */
+
+.holiday-discount {
+  width: 700px;
+  height: 500px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.holiday-text {
+  text-align: center;
+  max-width: 600px;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.holiday-text h5 {
+  color: #070211;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.holiday-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #070211;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.holiday-color {
+  color: #ff0000;
+}
+
+.sale-color {
+  color: #070211;
+}
+
+.holiday-text p {
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: #070211;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+  opacity: 50%;
+}
+
+.holiday-visual {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.rectangle1 {
+  position: absolute;
+  bottom: 50px;
+  right: -15px;
+  z-index: 1;
+  height: 300px;
+}
+
+.discount50 {
+  position: absolute;
+  bottom: 40%;
+  left: 60%;
+  transform: translateX(-50%);
+  width: 120px;
+  z-index: 2;
+}
+
+.rectangle2 {
+  position: absolute;
+  right: -15px;
+  bottom: 0;
+  z-index: 3;
+  height: 60px;
+  width: 100%;
+}
+
+.group-75 {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 200px;
+  z-index: 4;
+  opacity: 100%;
+}
+
+/* product section  */
+
+.product-section {
+  width: 700px;
+  height: 500px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.product-section-text {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.product-section-text h5 {
+  color: #ff0000;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.product-section-text h1 {
+  color: #070211;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.product-section-text p {
+  color: #070211;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  opacity: 50%;
+}
+
+.product-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box-image {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* newsletter section  */
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 35px;
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 720px;
+  width: 100%;
+  background-color: hwb(0 40% 3% / 0.616);
+  border-radius: 5px;
+}
+
+.newsletter-image img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.newsletter-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #070211;
+  opacity: 100%;
+  margin-bottom: 10px;
+}
+
+.newsletter-text p {
+  font-size: 0.75rem;
+  font-weight: lighter;
+  color: #070211;
+  opacity: 70%;
+  margin-bottom: 30px;
+}
+
+.subscribe-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.subscribe-option input {
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-size: 0.7rem;
+  width: 60%;
+  max-width: 300px;
+  background-color: #ffffff;
+}
+
+.subscribe-option button {
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 0.7rem;
+}
+
+/* footer section  */
+
+.footer {
+  background-color: #070211;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 0 0 0 0;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.footer-address,
+.footer-contact {
+  width: 45%;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-contact i img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.footer-contact i {
+  display: block;
+  margin: 8px 0;
+}
+
+.footer-social {
+  margin-bottom: 30px;
+}
+
+.footer-social i {
+  margin: 0 10px;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-copyright,
+.footer-unsub {
+  font-size: 12px;
+  margin: 5px 0;
+}
